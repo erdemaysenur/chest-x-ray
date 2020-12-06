@@ -1,7 +1,11 @@
 ### README
 #### Pneumonia Detection
 ![](https://i.imgur.com/jZqpV51.png)
-An image classification performed in this notebook. Data augmentation was used to prevent overfitting.
+
+
+ An image classification sample to classify normal/pneumonia from x-ray images. 
+ 
+ Data augmentation was used to prevent overfitting but because of the type of images only brightness_range has been set.(shearing or shifting wouldn't be helpful)
 
 #### Result
 86% accuracy was performed on test images.
